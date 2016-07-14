@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lany.picker.samples"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lany.picker.samples.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lany.picker.samples.DatePickerActivity" />
+        <activity android:name="com.lany.picker.samples.TimePickerActivity" />
+        <activity android:name="com.lany.picker.samples.LanyPickerActivity" />
+        <activity android:name="com.lany.picker.samples.CalendarViewActivity" />
+        <activity android:name="com.lany.picker.samples.YmdhPickerActivity" />
+        <activity android:name="com.lany.picker.samples.DateTimePickerActivity" />
+    </application>
+
+</manifest>

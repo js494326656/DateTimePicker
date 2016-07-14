@@ -22,6 +22,7 @@
         <activity android:name=".LanyPickerActivity"></activity>
         <activity android:name=".CalendarViewActivity"></activity>
         <activity android:name=".YmdhPickerActivity"></activity>
+        <activity android:name=".DateTimePickerActivity"></activity>
     </application>
 
 </manifest>

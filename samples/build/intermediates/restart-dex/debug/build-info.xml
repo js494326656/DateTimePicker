@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a"
+    api-level="16"
+    density="hdpi"
+    format="7"
+    timestamp="30815669458981" >
+
+    <task
+        name="javac"
+        duration="99" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="155" />
+    <task
+        name="verifier"
+        duration="51" />
+
+    <artifact
+        location="D:\project\DateTimePicker\samples\build\outputs\apk\samples-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="30815669458981" >
+        <artifact
+            location="D:\project\DateTimePicker\samples\build\outputs\apk\samples-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
